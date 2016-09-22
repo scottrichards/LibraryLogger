@@ -14,6 +14,7 @@
 		01E4C9991D9476C500804451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E4C9981D9476C500804451 /* Assets.xcassets */; };
 		01E4C99C1D9476C500804451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E4C99A1D9476C500804451 /* LaunchScreen.storyboard */; };
 		01E4C9A71D9476C500804451 /* LibraryLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4C9A61D9476C500804451 /* LibraryLoggerTests.m */; };
+		01E4C9B31D94771900804451 /* LibraryLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4C9B21D94771900804451 /* LibraryLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		01E4C9A21D9476C500804451 /* LibraryLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E4C9A61D9476C500804451 /* LibraryLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryLoggerTests.m; sourceTree = "<group>"; };
 		01E4C9A81D9476C500804451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E4C9B11D94771900804451 /* LibraryLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryLogger.h; sourceTree = "<group>"; };
+		01E4C9B21D94771900804451 /* LibraryLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				01E4C99A1D9476C500804451 /* LaunchScreen.storyboard */,
 				01E4C99D1D9476C500804451 /* Info.plist */,
 				01E4C98C1D9476C500804451 /* Supporting Files */,
+				01E4C9B11D94771900804451 /* LibraryLogger.h */,
+				01E4C9B21D94771900804451 /* LibraryLogger.m */,
 			);
 			path = LibraryLogger;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				01E4C9941D9476C500804451 /* ViewController.m in Sources */,
 				01E4C9911D9476C500804451 /* AppDelegate.m in Sources */,
 				01E4C98E1D9476C500804451 /* main.m in Sources */,
+				01E4C9B31D94771900804451 /* LibraryLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
